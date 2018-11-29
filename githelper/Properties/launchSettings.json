@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "githelper": {
+      "commandName": "Project",
+      "commandLineArgs": "-v -g \"D:\\source\\github.com\\dynamicwebnorthamerica\\USKidsGolf-cookiemonster\\src\\Files\" -u \"D:\\DynamicWeb\\Sites\\uskidsgolf.pc.ssargent.net\\Files\""
+    }
+  }
+}
