@@ -68,7 +68,7 @@ namespace GitHelper
 
                         foreach (var dl in finalList.Where(l => l.Include == true))
                         {
-                            Console.WriteLine(dl.DirectoryPath);
+                            Console.WriteLine(Path.Join("/src/Files", dl.DirectoryPath.Replace("\\", "/")));
                         }
                     });
 
