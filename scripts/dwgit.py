@@ -36,7 +36,8 @@ class dwgit(object):
                 
 
             if gitFileSignature != dwFileSignature:
-                data = "{} DW File {} does not match Git File {}".format(normalizedPath, dwFileSignature, gitFileSignature)
+                if dwFileSignature == -1:
+                    normalizedPath = "{} [File Missing]".format(normalizedPath)
                 x.add_row([normalizedPath])
         
         print(x)
